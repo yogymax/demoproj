@@ -4,6 +4,7 @@ public class Sample {
 	
 	public void m1() {
 		System.out.println("inside m1 of gaming projects...");
+		System.out.println("Inside sample...");
 	}
 	
 	
