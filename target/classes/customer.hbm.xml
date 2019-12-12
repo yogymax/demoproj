@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+<hibernate-mapping>
+   <class name = "com.scp.java.hbm.start.Customer" table = "cust_info">
+      <id name = "custId" type = "int" column = "cust_id"></id>
+      <property name = "custName" column = "cust_name" type = "string"/>
+      <property name = "custAge" column = "cust_age" type = "int"/>
+      <property name = "custAddress" column = "cust_adr" type = "string"/>
+      <property name = "custBalance" column = "cust_bal" type = "double"/>
+   </class>
+</hibernate-mapping>

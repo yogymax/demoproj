@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+<hibernate-mapping>
+   <class name = "com.scp.java.config.Product" table = "prod_info">
+      <id name = "prodId" type = "int" column = "pr_id"></id>
+      <property name = "prodName" column = "pr_name" type = "string"/>
+      <property name = "prodPrice" column = "pr_price" type = "double"/>
+      <property name = "prodVendor" column = "pr_ven" type = "string"/>
+      <property name = "prodLabel" column = "pr_lbl" type = "string"/>
+   </class>
+</hibernate-mapping>
