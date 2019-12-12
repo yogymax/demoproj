@@ -8,7 +8,7 @@ import org.apache.log4j.Logger;
 public class LoggingDemo {
 	
 	public static Logger log = Logger.getLogger(LoggingDemo.class);
-	int var=10;
+	int var=12;
 	int num = (byte)10.0;
 	
 	//OFE WI DTA
