@@ -4,7 +4,8 @@ import java.lang.reflect.Field;
 import java.util.Date;
 
 public class Immutable {
-
+	int var=10;
+	
 	/**
 	 * 	
 	
